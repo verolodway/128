@@ -22,7 +22,7 @@ public class MessagePost
     }
     
     public void like(){
-        likes = likes++;
+        likes++;
     }
     
     public void unlike(){
@@ -30,7 +30,7 @@ public class MessagePost
             likes = 0;
         }
         else{
-            likes = likes--;
+            likes--;
         }
     }
     
