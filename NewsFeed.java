@@ -1,34 +1,54 @@
 import java.util.ArrayList;
+
 /**
  * Write a description of class NewsFeed here.
  * 
- * @author Vero 
+ * @author (your name) 
  * @version (a version number or a date)
  */
 public class NewsFeed
 {
     private ArrayList<MessagePost> messages;
     private ArrayList<PhotoPost> photos;
-    
-    public NewsFeed(){
+
+    /**
+     * Constructor for objects of class NewsFeed
+     */
+    public NewsFeed()
+    {
         messages = new ArrayList<>();
         photos = new ArrayList<>();
     }
-    
-    public void addMessagePost(MessagePost message){
+
+    /**
+     * Add a post with a message
+     * 
+     * @message the message to introduce
+     */
+    public void addMessagePost(MessagePost message)
+    {
         messages.add(message);
     }
-    
-    public void addPhotoPost(PhotoPost photo){
+
+    /**
+     * Add a post with a image
+     * 
+     * @message the image to introduce
+     */
+    public void addPhotoPost(PhotoPost photo)
+    {
         photos.add(photo);
     }
     
+    /**
+     * Show the post
+     */
     public void show(){
-        for (MessagePost mensaje : messages){
-           mensaje.display();
+        for(MessagePost message : messages){
+            message.display();
         }
-        for (PhotoPost foto : photos){
-            foto.display();
+        for(PhotoPost photo : photos){
+            photo.display();
         }
     }
 }
