@@ -1,9 +1,9 @@
 #BlueJ class context
-comment0.params=username\ text
-comment0.target=MessagePost(java.lang.String,\ java.lang.String)
+comment0.params=username\ group
+comment0.target=JoinGroupPost(java.lang.String,\ java.lang.String)
 comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ MessagePost\r\n
 comment1.params=
-comment1.target=java.lang.String\ getText()
+comment1.target=java.lang.String\ getGrupo()
 comment1.text=\r\n\ Metodo\ que\ devuelve\ el\ mensaje\ del\ post\r\n
 comment2.params=
 comment2.target=void\ printShortSummary()

@@ -10,6 +10,7 @@ public class NewsFeed
 {
     private ArrayList<MessagePost> messages;
     private ArrayList<PhotoPost> photos;
+    private ArrayList<JoinGroupPost> groups;
 
     /**
      * Constructor for objects of class NewsFeed
@@ -18,6 +19,7 @@ public class NewsFeed
     {
         messages = new ArrayList<>();
         photos = new ArrayList<>();
+        groups = new ArrayList<>();
     }
 
     /**
@@ -38,6 +40,13 @@ public class NewsFeed
     public void addPhotoPost(PhotoPost photo)
     {
         photos.add(photo);
+    }
+    
+    /**
+     * Añade un post de grupo
+     */
+    public void addGroupPost(JoinGroupPost group){
+        groups.add(group);
     }
     
     /**
