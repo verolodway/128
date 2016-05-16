@@ -59,5 +59,8 @@ public class NewsFeed
         for(PhotoPost photo : photos){
             photo.display();
         }
+        for(JoinGroupPost group : groups){
+              group.display();
+        }
     }
 }
