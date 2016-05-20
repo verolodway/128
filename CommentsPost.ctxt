@@ -7,4 +7,6 @@ comment1.text=\r\n\ Metodo\ para\ a\u00F1adir\ un\ comentario\ al\ post\r\n
 comment2.params=
 comment2.target=void\ printComments()
 comment2.text=\r\n\ M\u00E9todo\ que\ nos\ devuelve\ los\ comentarios\ del\ post\r\n
-numComments=3
+comment3.params=
+comment3.target=void\ display()
+numComments=4

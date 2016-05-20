@@ -28,4 +28,11 @@ public class JoinGroupPost extends Post
     public void printShortSummary(){
         System.out.println("El usuario: " + getUsername() + " se ha unido al grupo: " + getGrupo());
     }
+    
+     public void display()
+    {  
+        System.out.println(getUsername() + " se ha unido al grupo: " + grupo);
+        super.display();
+
+    }
 }

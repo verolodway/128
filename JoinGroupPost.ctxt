@@ -7,4 +7,6 @@ comment1.target=java.lang.String\ getGrupo()
 comment1.text=\r\n\ Metodo\ que\ devuelve\ el\ mensaje\ del\ post\r\n
 comment2.params=
 comment2.target=void\ printShortSummary()
-numComments=3
+comment3.params=
+comment3.target=void\ display()
+numComments=4

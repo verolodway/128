@@ -32,4 +32,13 @@ public class CommentsPost extends Post
         else
             comentarios += "Sin comentarios";
     }
+    
+    public void display()
+    {
+      	super.display();
+        for (String comment :  comments)
+        {
+           System.out.println(comment);
+        }      
+    }
 }

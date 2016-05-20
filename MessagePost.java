@@ -28,6 +28,11 @@ public class MessagePost extends CommentsPost
         System.out.println("Esto es un post de texto creado por: " + getUsername());
     }
    
+    public void display()
+    {
+        System.out.println("Mensaje:"+message);
+        super.display();
+    }
 }
 
 

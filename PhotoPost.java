@@ -28,6 +28,13 @@ public class PhotoPost extends CommentsPost
         return filename;
     }
     
+    public void display()
+    {
+        System.out.println(filename);
+        System.out.println(caption);
+        super.display();
+    } 	
+    
     /**
      * Metodo que devuelve el mensaje del post
      */
